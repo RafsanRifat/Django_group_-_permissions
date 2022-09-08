@@ -1,16 +1,16 @@
 """
-WSGI config for docker_learning project.
+WSGI config for online_education_backend project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
 For more information on this file, see
-https://docs.djangoproject.com/en/3.2/howto/deployment/wsgi/
+https://docs.djangoproject.com/en/4.1/howto/deployment/wsgi/
 """
 
 import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'docker_learning.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'online_education_backend.settings')
 
 application = get_wsgi_application()
